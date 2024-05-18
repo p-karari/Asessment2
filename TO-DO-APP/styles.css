@@ -54,7 +54,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 36rem;
-    /* border: 1px solid white; */
     background-color: hsl(235, 24%, 19%);
     padding: 10px;
     gap: 7%;
@@ -65,16 +64,14 @@ body {
 .task {
     display: flex;
     width: 35rem;
-    border-bottom: 1px solid gray;
-    /* background-color: hsl(235, 24%, 19%); */
+    border-bottom: 1px solid gray; 
     padding: 10px;
     gap: 7%;
     color: rgb(210, 210, 210);
     font-weight: 600;
     align-items: center;
     text-transform: capitalize;
-    /* border-radius: 10px; */
-    /* border-radius: 6px; */
+
 }
 
 .task button {
@@ -90,7 +87,6 @@ body {
     flex-direction: column;
     gap: 40px;
     padding: 6px;
-    /* border: 1px solid pink; */
     margin-top: -250px;
     align-items: center;
     justify-content: flex-start;
